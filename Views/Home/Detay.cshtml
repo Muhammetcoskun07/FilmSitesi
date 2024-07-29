@@ -1,0 +1,147 @@
+﻿@model FilmModel
+
+<style>
+    body {
+        background-color: #141414;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #181818;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #e50914;
+        }
+
+    .details {
+        margin-top: 20px;
+    }
+
+        .details label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            color: #e50914;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        .details img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .details .item {
+            margin-bottom: 10px;
+        }
+
+            .details .item label {
+                font-weight: bold;
+                display: block;
+            }
+
+            .details .item p {
+                margin: 5px 0 10px 0;
+            }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-primary {
+        background-color: #e50914;
+        color: #fff;
+        border: none;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #f40612;
+        }
+
+    .btn-danger {
+        background-color: #e50914;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-danger:hover {
+            background-color: #f40612;
+        }
+</style>
+
+<div class="container">
+    <div class="header">
+        <h1>Film Detayları</h1>
+    </div>
+    @if (Model != null)
+    {
+        <div class="details">
+            <img src="/uploads/@Model.ImgUrl" alt="Film Adı" />
+            <div class="item">
+                <label>Film Adı:</label>
+                <p>@Model.FilmAdi</p>
+            </div>
+            <div class="item">
+                <label>Yönetmen:</label>
+                <p>@Model.Yonetmen</p>
+            </div>
+            <div class="item">
+                <label>Kategori:</label>
+                <p>@Model.Kategori</p>
+            </div>
+            <div class="item">
+                <label>Vizyon Tarihi:</label>
+                <p>@Model.Tarih.ToString("dd MMMM yyyy")</p>
+            </div>
+            <div class="item">
+                <label>Detay:</label>
+                <p>@Html.Raw(Model.Detay)</p>
+            </div>
+            <div class="sidebar">
+                <div class="action-buttons">
+                    <a href="/admin/FilmDuzenle/@Model.Id" class="btn btn-primary">Düzenle</a>
+                    <a href="/admin/FilmSil/@Model.Id" class="btn btn-danger" onclick="return confirm('Emin misin?')">Sil</a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Üzgünüm, böyle bir gönderi yok.</p>
+    }
+</div>

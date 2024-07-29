@@ -1,0 +1,94 @@
+﻿@model List<FilmModel>
+
+<div class="container">
+    <h2 class="mb-4 text-white">Film Ekle</h2>
+
+    <form class="row g-3 mb-1" method="post" action="/Admin/FilmEkle" autocomplete="off" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="Name" class="form-label text-white">Film Adı</label>
+            <input type="text" class="form-control" name="FilmAdi" required placeholder="Film Adı" />
+        </div>
+
+        <div class="mb-3">
+            <label for="Detail" class="form-label text-white">Detay</label>
+            <input type="text" class="form-control" name="Detay" placeholder="Film Detayı" />
+        </div>
+
+        <div class="mb-3">
+            <label for="Tarih" class="form-label text-white">Tarih</label>
+            <input type="date" name="Tarih" id="Tarih" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="Yonetmen" class="form-label text-white">Yönetmen Adı</label>
+            <input type="text" class="form-control" name="Yonetmen" required placeholder="Yönetmen Adı" />
+        </div>
+
+        <div class="mb-3">
+            <label for="Kategori" class="form-label text-white">Kategori</label>
+            <select id="Kategori" name="KategoriId" class="form-select">
+                @foreach (var category in Model)
+                {
+                    <option value="@category.Id">@category.Kategori</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Image" class="form-label text-white">Fotoğraf</label>
+            <input type="file" name="Image" accept="image/png, image/jpeg" class="form-control" />
+        </div>
+
+        <button class="btn btn-danger">Ekle</button>
+
+        @if (ViewData["Mesaj"] != null)
+        {
+            <div class="alert alert-primary mt-3" role="alert">
+                @ViewData["Mesaj"]
+            </div>
+        }
+    </form>
+</div>
+
+<style>
+    body {
+        background-color: #141414;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-control, .form-select {
+        background-color: #333;
+        color: white;
+        border: 1px solid #444;
+    }
+
+        .form-control::placeholder, .form-select::placeholder {
+            color: #bbb;
+        }
+
+        .form-control:focus, .form-select:focus {
+            background-color: #444;
+            color: white;
+            border-color: #e50914;
+        }
+
+    .btn-danger {
+        background-color: #e50914;
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background-color: #f40612;
+        }
+
+    .alert-primary {
+        background-color: #e50914;
+        border-color: #e50914;
+        color: white;
+    }
+</style>

@@ -1,0 +1,141 @@
+﻿@model List<FilmModel>
+@{
+    ViewData["Title"] = "Anasayfa";
+    List<string> processedCategories = new List<string>();
+}
+
+<h2>Jetflix</h2>
+<div class="accordion" id="accordionExample">
+    @foreach (var menu in Model)
+    {
+        if (!processedCategories.Contains(menu.Kategori))
+        {
+            processedCategories.Add(menu.Kategori);
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@menu.Kategori.Replace(" ", "-")" aria-expanded="false" aria-controls="collapse-@menu.Kategori.Replace(" ", "-")">
+                        @menu.Kategori
+                    </button>
+                </h2>
+                <div id="collapse-@menu.Kategori.Replace(" ", "-")" class="accordion-collapse collapse" aria-labelledby="heading-@menu.Kategori.Replace(" ", "-")">
+                    <div class="accordion-body">
+                        <div class="film-carousel">
+                            @foreach (var item in Model.Where(m => m.Kategori == menu.Kategori))
+                            {
+                                <div class="film-card">
+                                    <img src="/uploads/@item.ImgUrl" alt="@item.FilmAdi" class="film-img" style="height:200px">
+                                    <div class="film-info">
+                                        <h4>@item.FilmAdi</h4>
+                                        <p>Yönetmen: @item.Yonetmen</p>
+                                        <p>Çıkış Tarihi: @item.Tarih.ToString("dd MMM yyyy")</p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<style>
+    body {
+        background-color: #141414;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .accordion-header {
+        background-color: #343a40;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+        background-color: #495057;
+        color: white;
+        border: none;
+        padding: 15px;
+    }
+
+        .accordion-button:hover {
+            background-color: #343a40;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+        }
+
+    .accordion-body {
+        background-color: #212529;
+        color: white;
+    }
+
+    .film-carousel {
+        display: flex;
+        overflow-x: auto;
+        padding: 10px 0;
+    }
+
+    .film-card {
+        min-width: 200px;
+        margin-right: 20px;
+        background-color: #495057;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.2s;
+    }
+
+        .film-card:hover {
+            transform: scale(1.05);
+        }
+
+    .film-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .film-info {
+        padding: 10px;
+    }
+
+        .film-info h4 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .film-info p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+    media (max-width: 768px) {
+        .film-card
+
+    {
+        min-width: 150px;
+    }
+
+    .film-info h4 {
+        font-size: 14px;
+    }
+
+    .film-info p {
+        font-size: 12px;
+    }
+
+    }
+</style>

@@ -1,0 +1,97 @@
+﻿@model List<FilmModel>
+
+@{
+    ViewData["Title"] = "Kategori Ekle";
+}
+
+<style>
+    body {
+        background-color: #141414;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #222;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-top: 10px;
+        font-weight: bold;
+        color: white;
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #444;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+        background-color: #333;
+        color: white;
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    button.btn {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+        background-color: #e50914;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        button.btn:hover {
+            background-color: #f40612;
+        }
+
+    .alert {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    .alert-primary {
+        background-color: #e50914;
+        color: white;
+    }
+</style>
+
+<div class="container">
+    <form class="row g-3 mb-1" method="post" action="/Admin/KategoriEkle" autocomplete="off" enctype="multipart/form-data">
+        <label for="Kategori">Kategori</label>
+        <input type="text" name="Kategori" required placeholder="Kategori" />
+
+        <button class="btn btn-primary">Ekle</button>
+
+        @if (ViewData["Mesaj"] != null)
+        {
+            <div class="alert alert-primary" role="alert">
+                @ViewData["Mesaj"]
+            </div>
+        }
+    </form>
+</div>

@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JetflixApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\JetflixApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\0c0d9477-24e4-4236-bab3-83ee6b9a9238.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0c0d9477-24e4-4236-bab3-83ee6b9a9238.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\16be5ee9-9dad-4e19-bfb7-9c47e36dbf97.jpg",
+      "PackagePath": "staticwebassets\\uploads\\16be5ee9-9dad-4e19-bfb7-9c47e36dbf97.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\1a3dba92-ac51-448e-8316-4424bba0857a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1a3dba92-ac51-448e-8316-4424bba0857a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\2aa14eee-e46e-4cd9-aa1b-da77af66e857.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2aa14eee-e46e-4cd9-aa1b-da77af66e857.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\2bbdba92-2439-4fac-b4cc-ff902931f2da.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2bbdba92-2439-4fac-b4cc-ff902931f2da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\2e1f99a1-9bda-4ae1-be76-557d55fe54dc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2e1f99a1-9bda-4ae1-be76-557d55fe54dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\34f34052-f302-432a-a98d-25d5ca809a5f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\34f34052-f302-432a-a98d-25d5ca809a5f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\3d8c9107-4728-417f-9dc2-dc7b0a8083e3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3d8c9107-4728-417f-9dc2-dc7b0a8083e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\565e24f9-c8a1-4e9a-80e3-4f6f2e2357e5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\565e24f9-c8a1-4e9a-80e3-4f6f2e2357e5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\672cf207-064f-4004-92cb-ac08428caace.jpg",
+      "PackagePath": "staticwebassets\\uploads\\672cf207-064f-4004-92cb-ac08428caace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\79553e61-fe26-41f3-84db-1486f1a63a46.jpg",
+      "PackagePath": "staticwebassets\\uploads\\79553e61-fe26-41f3-84db-1486f1a63a46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\7a474090-59ae-42be-993f-da4c8002a002.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7a474090-59ae-42be-993f-da4c8002a002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\82e7e1d6-f4ad-4585-958e-da93a40097d5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\82e7e1d6-f4ad-4585-958e-da93a40097d5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\98a841a1-97c5-43ac-a74a-5e4fc85b9459.jpg",
+      "PackagePath": "staticwebassets\\uploads\\98a841a1-97c5-43ac-a74a-5e4fc85b9459.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\a8a983b3-01db-49a5-afaf-7c6be1b50f75.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a8a983b3-01db-49a5-afaf-7c6be1b50f75.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\ababd1e8-9772-4353-9848-8ab5af109dfc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ababd1e8-9772-4353-9848-8ab5af109dfc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\ac948fc6-ee5f-44e9-9974-80962e42a19f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ac948fc6-ee5f-44e9-9974-80962e42a19f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\b6e68c44-11b1-41c2-b21b-2cde2491a338.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b6e68c44-11b1-41c2-b21b-2cde2491a338.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\b7532551-1b6b-45f1-9673-e07d23cfcf78.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b7532551-1b6b-45f1-9673-e07d23cfcf78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\beae750e-9b9a-4e35-ae79-e9bcd874f770.jpg",
+      "PackagePath": "staticwebassets\\uploads\\beae750e-9b9a-4e35-ae79-e9bcd874f770.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\c42a239b-f0d4-4766-8555-9927d09c85bd.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\c42a239b-f0d4-4766-8555-9927d09c85bd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\cc5f0696-6bfd-4d15-ac15-a066aedbd58a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cc5f0696-6bfd-4d15-ac15-a066aedbd58a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammet\\OneDrive\\Masaüstü\\works\\JetflixApp\\wwwroot\\uploads\\e58f5244-18f1-40ff-a787-6847c7478de6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e58f5244-18f1-40ff-a787-6847c7478de6.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JetflixApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.JetflixApp.props",
+      "PackagePath": "build\\JetflixApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.JetflixApp.props",
+      "PackagePath": "buildMultiTargeting\\JetflixApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.JetflixApp.props",
+      "PackagePath": "buildTransitive\\JetflixApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

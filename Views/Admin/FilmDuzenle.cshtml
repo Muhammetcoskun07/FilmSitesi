@@ -1,0 +1,38 @@
+﻿@model FilmModel
+
+<h2 class="mb-4">Film Düzenle</h2>
+
+<form class="row g-3" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label class="form-label">FilmAdi</label>
+        <input required type="text" value="@Model.FilmAdi" class="form-control" name="FilmAdi">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Detay</label>
+        <input type="text" value="@Model.Detay" class="form-control" name="Detay">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Yonetmen</label>
+        <input required type="text" value="@Model.Yonetmen" class="form-control" name="Yonetmen">
+    </div>
+    <div class="form-group">
+        <label for="Tarih">Tarih:</label>
+        <input type="date" name="Tarih" id="Tarih" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Kategori</label>
+        <select id="Kategori" name="KategoriId">
+            @foreach (var category in ViewBag.Categories)
+            {
+                <option selected="@(category.Id == Model.KategoriId ? "selected" : null)" value="@category.Id">@category.Kategori</option>
+            }
+        </select>
+    </div>
+    <input type="image" src="/uploads/@Model.ImgUrl" name="Image" style="height:200px; width:400px" />
+
+    <input type="file" name="Image" @* multiple *@ accept="image/png, image/jpeg" />
+
+    <input type="hidden" name="ImgUrl" value="@Model.ImgUrl" />
+
+    <button class="btn btn-success">Düzenle</button>
+</form>
